@@ -1,5 +1,6 @@
 # Windows usage monitoring with PRTG Push sensor
-Monitoring Windows usage (CPU, Memory, Disk Usage, Uptime) with HTTP Push Data Advanced PRTG Sensor
+Monitoring Windows usage (CPU, Memory, Disk Usage, Uptime) with HTTP Push Data Advanced PRTG Sensor.
+
 It works better than WMI and it's cheaper on the sensor cost
 
 ## Tested on
