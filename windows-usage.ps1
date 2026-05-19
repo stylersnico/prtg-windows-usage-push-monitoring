@@ -50,22 +50,25 @@ $xmlPayload = @"
     <result>
         <channel>CPU Usage</channel>
         <value>$cpuUsage</value>
-        <warning>80</warning>
-        <error>90</error>
+		<LimitMode>1</LimitMode>
+		<LimitMaxWarning>80</LimitMaxWarning>
+		<LimitMaxError>90</LimitMaxError>
 		<unit>Percent</unit>
     </result>
     <result>
         <channel>Memory Usage</channel>
         <value>$memoryUsage</value>
-        <warning>80</warning>
-        <error>90</error>
+		<LimitMode>1</LimitMode>
+		<LimitMaxWarning>80</LimitMaxWarning>
+		<LimitMaxError>90</LimitMaxError>
 		<unit>Percent</unit>
     </result>
     <result>
         <channel>Uptime Days</channel>
         <value>$uptime</value>
-        <warning>45</warning>
-        <error>60</error>
+		<LimitMode>1</LimitMode>
+		<LimitMaxWarning>45</LimitMaxWarning>
+		<LimitMaxError>60</LimitMaxError>
         <unit>Custom</unit>
         <customunit>days</customunit>
     </result>
